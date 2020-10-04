@@ -30,48 +30,61 @@ for (var i = 0; i < numbers.length; i++){
 
 // question 5
 
-for(var count = 15; count <= 25; count++) {
-    console.log(count);
+for(var count = 15; i <= 25; i++) {
+    console.log(i);
 }
 
 // question 6
 
+for (var count = 15; i <= 25; i++) {
+	if (i === 20) {
+		console.log(i);
+	}
+}
+
 // question 7
 
-var newArray = [
+var Arsenal = [
     {
-        string: "blabla",
-        number: 5,
-        boolean: true,
-    }
-    
+        name: "Aubameyang",
+        number: 14,
+        striker: true,
+    },
     {
-        string: "bleble",
-        number: 6,
-        boolean: false,
+        name: "Xhaka",
+        number: 34,
+        striker: false,
     }
 ];
 
-for(var i = 0; i < newArray.length; i++) {
-
-    console.log(catArray[i].name);
-
-    console.log(catArray[i].colour);
-
-    console.log(catArray[i].age);
+for(var i = 0; i < Arsenal.length; i++) {
+    console.log(Arsenal[i].number);
+    console.log(Arsenal[i].striker);
 }
 
 // question 8
 
 function whatIDontLike(theUnlikable) {
-    console.log("I don't like");
+    console.log("I don't like" + theUnlikable);
 }
 
-function logToConsole(theUnlikable) {
-    console.log(theUnlikable);
-}
-
-logToConsole("spider");
+logToConsole("Tottenham");
 
 // question 9
 
+function addingNumbers(number1, number2) {
+    var sum = number1 + number2;
+    console.log(sum);
+}
+
+AddTwoNumbers(6, 18);
+
+// question 10
+
+var footballTeam = [];
+
+function footy(teamName){
+    footballTeam.push(teamName);
+}
+
+footy("Juventus");
