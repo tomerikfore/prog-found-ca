@@ -77,7 +77,7 @@ function SubtractTwoNumbers(number1, number2) {
     console.log(sum);
 }
 
-AddTwoNumbers(6, 18);
+SubtractTwoNumbers(18, 6);
 
 // question 10
 
