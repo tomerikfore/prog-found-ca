@@ -72,8 +72,8 @@ logToConsole("Tottenham");
 
 // question 9
 
-function addingNumbers(number1, number2) {
-    var sum = number1 + number2;
+function SubtractTwoNumbers(number1, number2) {
+    var sum = number1 - number2;
     console.log(sum);
 }
 
